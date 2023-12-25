@@ -1,5 +1,7 @@
 import esbuild from 'esbuild';
 
+
+//esmodule용 build
 esbuild.build ({
     entryPoints : ['src/index.ts'],
     bundle : true,
@@ -9,6 +11,8 @@ esbuild.build ({
     format : 'esm',
 });
 
+
+//cjs용 build 설정
 esbuild.build ({
     entryPoints : ['src/index.ts'],
     bundle : true,
