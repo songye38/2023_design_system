@@ -1,0 +1,17 @@
+*.DS_Store
+*.log
+*.tsbuildinfo
+
+.pnp.*
+.yarn/install-state.gz
+!.yarn/paches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+**/packge-lock.json
+**/node-_modules
+
+**/dist/*
+dist
+
