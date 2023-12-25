@@ -1,0 +1,14 @@
+{
+  "name": "@fastcampus/themes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --minify --format=cjs --bundle --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.16.17"
+  }
+}
